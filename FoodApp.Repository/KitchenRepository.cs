@@ -1,19 +1,19 @@
-﻿using FoodApp.KitchenDb;
-using FoodApp.Repository.Interface;
+﻿using DeliveryServiceApp.KitchenDb;
+using DeliveryServiceApp.Repository.Interface;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FoodApp.Repository
+namespace DeliveryServiceApp.Repository
 {
     public class KitchenRepository:RepositoryBase, IKitchenRepository
     {
-        public KitchenRepository(string kitchenOwnerEmail):base(FoodAppDbType.Kitchen, kitchenOwnerEmail)
+        public KitchenRepository(string kitchenOwnerEmail):base(DeliveryServiceAppDbType.Kitchen, kitchenOwnerEmail)
         {
         }
-        public KitchenRepository(int kitchenId) : base(FoodAppDbType.Kitchen, kitchenId)
+        public KitchenRepository(int kitchenId) : base(DeliveryServiceAppDbType.Kitchen, kitchenId)
         {
         }
 

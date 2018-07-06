@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
 
-namespace FoodApp.GPSReceiverAPI
+namespace DeliveryServiceApp.GPSReceiverAPI
 {
     public static class WebApiConfig
     {

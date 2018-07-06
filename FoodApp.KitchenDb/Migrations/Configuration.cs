@@ -1,18 +1,18 @@
-namespace FoodApp.KitchenDb.Migrations
+namespace DeliveryServiceApp.KitchenDb.Migrations
 {
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<FoodApp.KitchenDb.KitchenDbContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<DeliveryServiceApp.KitchenDb.KitchenDbContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(FoodApp.KitchenDb.KitchenDbContext context)
+        protected override void Seed(DeliveryServiceApp.KitchenDb.KitchenDbContext context)
         {
             //  This method will be called after migrating to the latest version.
 

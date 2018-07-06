@@ -7,8 +7,8 @@
     <ProjectGuid>{6075367E-2533-4CE7-9A90-1929C7F8C917}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>FoodApp.DbFactory</RootNamespace>
-    <AssemblyName>FoodApp.DbFactory</AssemblyName>
+    <RootNamespace>DeliveryServiceApp.DbFactory</RootNamespace>
+    <AssemblyName>DeliveryServiceApp.DbFactory</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -55,17 +55,17 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FoodApp.CenteralDb\FoodApp.CenteralDb.csproj">
+    <ProjectReference Include="..\FoodApp.CenteralDb\DeliveryServiceApp.CenteralDb.csproj">
       <Project>{fcd11f9f-da75-4dc0-9633-957be42f8bca}</Project>
-      <Name>FoodApp.CenteralDb</Name>
+      <Name>DeliveryServiceApp.CenteralDb</Name>
     </ProjectReference>
-    <ProjectReference Include="..\FoodApp.CustomerDb\FoodApp.CustomerDb.csproj">
+    <ProjectReference Include="..\FoodApp.CustomerDb\DeliveryServiceApp.CustomerDb.csproj">
       <Project>{d8142d34-e992-4863-b11d-681568ee6fc5}</Project>
-      <Name>FoodApp.CustomerDb</Name>
+      <Name>DeliveryServiceApp.CustomerDb</Name>
     </ProjectReference>
-    <ProjectReference Include="..\FoodApp.KitchenDb\FoodApp.KitchenDb.csproj">
+    <ProjectReference Include="..\FoodApp.KitchenDb\DeliveryServiceApp.KitchenDb.csproj">
       <Project>{4769046f-0b31-45ec-b9b7-a53158d944ae}</Project>
-      <Name>FoodApp.KitchenDb</Name>
+      <Name>DeliveryServiceApp.KitchenDb</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FoodApp.DbFactory
+namespace DeliveryServiceApp.DbFactory
 {
     public class AppDbfactory
     {

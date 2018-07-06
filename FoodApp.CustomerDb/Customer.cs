@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FoodApp.CustomerDb
+namespace DeliveryServiceApp.CustomerDb
 {
     public class Customer
     {

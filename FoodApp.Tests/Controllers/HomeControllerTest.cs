@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Web.Mvc;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using FoodApp;
-using FoodApp.Controllers;
+using DeliveryServiceApp;
+using DeliveryServiceApp.Controllers;
 
-namespace FoodApp.Tests.Controllers
+namespace DeliveryServiceApp.Tests.Controllers
 {
     [TestClass]
     public class HomeControllerTest

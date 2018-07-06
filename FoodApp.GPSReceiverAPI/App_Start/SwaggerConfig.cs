@@ -5,11 +5,11 @@ using System.Web.Http.Description;
 using Swashbuckle.Application;
 using Swashbuckle.Swagger;
 using WebActivatorEx;
-using FoodApp.GPSReceiverAPI;
+using DeliveryServiceApp.GPSReceiverAPI;
 
 [assembly: PreApplicationStartMethod(typeof(SwaggerConfig), "Register")]
 
-namespace FoodApp.GPSReceiverAPI
+namespace DeliveryServiceApp.GPSReceiverAPI
 {
     public class SwaggerConfig
     {
@@ -36,7 +36,7 @@ namespace FoodApp.GPSReceiverAPI
                         // hold additional metadata for an API. Version and title are required but you can also provide
                         // additional fields by chaining methods off SingleApiVersion.
                         //
-                        c.SingleApiVersion("v1", "FoodApp.GPSReceiverAPI");
+                        c.SingleApiVersion("v1", "DeliveryServiceApp.GPSReceiverAPI");
 
                         // If your API has multiple versions, use "MultipleApiVersions" instead of "SingleApiVersion".
                         // In this case, you must provide a lambda that tells Swashbuckle which actions should be

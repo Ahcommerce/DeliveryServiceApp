@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FoodApp.CenteralDb
+namespace DeliveryServiceApp.CenteralDb
 {
     public class CentralDbContext:DbContext
     {

@@ -7,8 +7,8 @@
     <ProjectGuid>{74D25AA4-AC9E-451E-8C2B-B114C139BF0D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>FoodApp.Cache</RootNamespace>
-    <AssemblyName>FoodApp.Cache</AssemblyName>
+    <RootNamespace>DeliveryServiceApp.Cache</RootNamespace>
+    <AssemblyName>DeliveryServiceApp.Cache</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

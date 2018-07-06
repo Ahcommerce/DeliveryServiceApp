@@ -1,18 +1,18 @@
-namespace FoodApp.CustomerDb.Migrations
+namespace DeliveryServiceApp.CustomerDb.Migrations
 {
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<FoodApp.CustomerDb.CustomerDbContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<DeliveryServiceApp.CustomerDb.CustomerDbContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(FoodApp.CustomerDb.CustomerDbContext context)
+        protected override void Seed(DeliveryServiceApp.CustomerDb.CustomerDbContext context)
         {
             //  This method will be called after migrating to the latest version.
 

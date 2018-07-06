@@ -1,1 +1,1 @@
-﻿<%@ Application Codebehind="Global.asax.cs" Inherits="FoodApp.GPSReceiverAPI.WebApiApplication" Language="C#" %>
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="DeliveryServiceApp.GPSReceiverAPI.WebApiApplication" Language="C#" %>

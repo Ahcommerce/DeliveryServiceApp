@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FoodApp.Cache
+namespace DeliveryServiceApp.Cache
 {
     public class CacheProviderBase
     {

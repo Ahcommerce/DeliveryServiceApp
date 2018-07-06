@@ -9,8 +9,8 @@
     <ProjectGuid>{F9056909-3BD2-4D27-BBFE-E2BF56BDC49D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>FoodApp.Tests</RootNamespace>
-    <AssemblyName>FoodApp.Tests</AssemblyName>
+    <RootNamespace>DeliveryServiceApp.Tests</RootNamespace>
+    <AssemblyName>DeliveryServiceApp.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -99,9 +99,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FoodApp\FoodApp.csproj">
+    <ProjectReference Include="..\FoodApp\DeliveryServiceApp.csproj">
       <Project>{A5E51B6F-6A0A-4FB8-857F-257CF63151F9}</Project>
-      <Name>FoodApp</Name>
+      <Name>DeliveryServiceApp</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

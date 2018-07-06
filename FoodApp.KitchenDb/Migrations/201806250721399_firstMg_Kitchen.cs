@@ -1,4 +1,4 @@
-namespace FoodApp.KitchenDb.Migrations
+namespace DeliveryServiceApp.KitchenDb.Migrations
 {
     using System;
     using System.Data.Entity.Migrations;

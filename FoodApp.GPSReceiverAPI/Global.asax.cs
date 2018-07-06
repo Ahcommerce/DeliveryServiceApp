@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Http;
 using System.Web.Routing;
 
-namespace FoodApp.GPSReceiverAPI
+namespace DeliveryServiceApp.GPSReceiverAPI
 {
     public class WebApiApplication : System.Web.HttpApplication
     {

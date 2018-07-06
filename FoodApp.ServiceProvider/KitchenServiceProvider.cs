@@ -1,13 +1,13 @@
-﻿using FoodApp.Repository;
-using FoodApp.Repository.Interface;
-using FoodApp.ServiceProvider.Interface;
+﻿using DeliveryServiceApp.Repository;
+using DeliveryServiceApp.Repository.Interface;
+using DeliveryServiceApp.ServiceProvider.Interface;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FoodApp.ServiceProvider
+namespace DeliveryServiceApp.ServiceProvider
 {
     public class KitchenServiceProvider: IKitchenServiceProvider
     {

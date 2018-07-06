@@ -3,33 +3,33 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodApp", "FoodApp\FoodApp.csproj", "{A5E51B6F-6A0A-4FB8-857F-257CF63151F9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliveryServiceApp", "FoodApp\DeliveryServiceApp.csproj", "{A5E51B6F-6A0A-4FB8-857F-257CF63151F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodApp.Tests", "FoodApp.Tests\FoodApp.Tests.csproj", "{F9056909-3BD2-4D27-BBFE-E2BF56BDC49D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliveryServiceApp.Tests", "FoodApp.Tests\DeliveryServiceApp.Tests.csproj", "{F9056909-3BD2-4D27-BBFE-E2BF56BDC49D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodApp.KitchenDb", "FoodApp.KitchenDb\FoodApp.KitchenDb.csproj", "{4769046F-0B31-45EC-B9B7-A53158D944AE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliveryServiceApp.KitchenDb", "FoodApp.KitchenDb\DeliveryServiceApp.KitchenDb.csproj", "{4769046F-0B31-45EC-B9B7-A53158D944AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodApp.CustomerDb", "FoodApp.CustomerDb\FoodApp.CustomerDb.csproj", "{D8142D34-E992-4863-B11D-681568EE6FC5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliveryServiceApp.CustomerDb", "FoodApp.CustomerDb\DeliveryServiceApp.CustomerDb.csproj", "{D8142D34-E992-4863-B11D-681568EE6FC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodApp.CenteralDb", "FoodApp.CenteralDb\FoodApp.CenteralDb.csproj", "{FCD11F9F-DA75-4DC0-9633-957BE42F8BCA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliveryServiceApp.CenteralDb", "FoodApp.CenteralDb\DeliveryServiceApp.CenteralDb.csproj", "{FCD11F9F-DA75-4DC0-9633-957BE42F8BCA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodApp.DbFactory", "FoodApp.DbFactory\FoodApp.DbFactory.csproj", "{6075367E-2533-4CE7-9A90-1929C7F8C917}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliveryServiceApp.DbFactory", "FoodApp.DbFactory\DeliveryServiceApp.DbFactory.csproj", "{6075367E-2533-4CE7-9A90-1929C7F8C917}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodApp.Repository", "FoodApp.Repository\FoodApp.Repository.csproj", "{97C7C046-9FAC-4C89-B98A-B0E7A1864494}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliveryServiceApp.Repository", "FoodApp.Repository\DeliveryServiceApp.Repository.csproj", "{97C7C046-9FAC-4C89-B98A-B0E7A1864494}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodApp.ServiceProvider", "FoodApp.ServiceProvider\FoodApp.ServiceProvider.csproj", "{EC873911-77FB-444B-9A72-C2B22359DB7D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliveryServiceApp.ServiceProvider", "FoodApp.ServiceProvider\DeliveryServiceApp.ServiceProvider.csproj", "{EC873911-77FB-444B-9A72-C2B22359DB7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodApp.Cache", "FoodApp.Cache\FoodApp.Cache.csproj", "{74D25AA4-AC9E-451E-8C2B-B114C139BF0D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliveryServiceApp.Cache", "FoodApp.Cache\DeliveryServiceApp.Cache.csproj", "{74D25AA4-AC9E-451E-8C2B-B114C139BF0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodApp.CustomSharedModels", "FoodApp.CustomSharedModels\FoodApp.CustomSharedModels.csproj", "{37C5B95F-EB12-4917-BF9D-2373C043A9C1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliveryServiceApp.CustomSharedModels", "FoodApp.CustomSharedModels\DeliveryServiceApp.CustomSharedModels.csproj", "{37C5B95F-EB12-4917-BF9D-2373C043A9C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodApp.DeliveryRoutingEngine", "FoodApp.DeliveryRoutingEngine\FoodApp.DeliveryRoutingEngine.csproj", "{BAD862C2-A914-46A8-9BFC-18894D58CF22}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliveryServiceApp.DeliveryRoutingEngine", "FoodApp.DeliveryRoutingEngine\DeliveryServiceApp.DeliveryRoutingEngine.csproj", "{BAD862C2-A914-46A8-9BFC-18894D58CF22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodApp.GPSTracker", "FoodApp.GPSTracker\FoodApp.GPSTracker.csproj", "{F96EBFFC-568C-4124-BE8A-B7EA2386CD96}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliveryServiceApp.GPSTracker", "FoodApp.GPSTracker\DeliveryServiceApp.GPSTracker.csproj", "{F96EBFFC-568C-4124-BE8A-B7EA2386CD96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodApp.GPSReceiverAPI", "FoodApp.GPSReceiverAPI\FoodApp.GPSReceiverAPI.csproj", "{E0CFA5F0-39CF-4D8E-85AA-BABAACEB07AB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliveryServiceApp.GPSReceiverAPI", "FoodApp.GPSReceiverAPI\DeliveryServiceApp.GPSReceiverAPI.csproj", "{E0CFA5F0-39CF-4D8E-85AA-BABAACEB07AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodApp.GPSReceiverAPI.Tests", "FoodApp.GPSReceiverAPI.Tests\FoodApp.GPSReceiverAPI.Tests.csproj", "{737B5961-242C-4B4B-952D-C1F15F2EB849}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliveryServiceApp.GPSReceiverAPI.Tests", "FoodApp.GPSReceiverAPI.Tests\DeliveryServiceApp.GPSReceiverAPI.Tests.csproj", "{737B5961-242C-4B4B-952D-C1F15F2EB849}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

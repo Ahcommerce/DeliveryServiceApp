@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace FoodApp.GPSReceiverAPI.Tests
+namespace DeliveryServiceApp.GPSReceiverAPI.Tests
 {
     [TestClass]
     public class UnitTest1

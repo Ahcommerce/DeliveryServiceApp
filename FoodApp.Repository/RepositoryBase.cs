@@ -1,4 +1,4 @@
-﻿using FoodApp.DbFactory;
+﻿using DeliveryServiceApp.DbFactory;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -7,48 +7,48 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FoodApp.Repository
+namespace DeliveryServiceApp.Repository
 {
     public class RepositoryBase
     {
         private readonly DbContext _Context;
-        public RepositoryBase(FoodAppDbType dbType)
+        public RepositoryBase(DeliveryServiceAppDbType dbType)
         {
             switch (dbType)
             {
-                case FoodAppDbType.Central:
+                case DeliveryServiceAppDbType.Central:
                     _Context = AppDbfactory.GetDefaultCentralContext;
                     break;
-                case FoodAppDbType.Kitchen:
+                case DeliveryServiceAppDbType.Kitchen:
                     _Context = AppDbfactory.GetDefaultKitchenContext;
                     break;
-                case FoodAppDbType.Customer:
+                case DeliveryServiceAppDbType.Customer:
                    // _Context = AppDbfactory.GetDefaultCustomerContext;
                     break;
             }
         }
 
-        public RepositoryBase(FoodAppDbType dbType,int entityId)
+        public RepositoryBase(DeliveryServiceAppDbType dbType,int entityId)
         {
             switch (dbType)
             {
-                case FoodAppDbType.Kitchen:
+                case DeliveryServiceAppDbType.Kitchen:
                     _Context = AppDbfactory.GetSpecificKitchenContext(entityId);
                     break;
-                case FoodAppDbType.Customer:
+                case DeliveryServiceAppDbType.Customer:
                    // _Context = AppDbfactory.GetSpecificCustometrContext(entityId);
                     break;
             }
         }
 
-        public RepositoryBase(FoodAppDbType dbType, string entityEmail)
+        public RepositoryBase(DeliveryServiceAppDbType dbType, string entityEmail)
         {
             switch (dbType)
             {
-                case FoodAppDbType.Kitchen:
+                case DeliveryServiceAppDbType.Kitchen:
                     _Context = AppDbfactory.GetSpecificKitchenContext(entityEmail);
                     break;
-                case FoodAppDbType.Customer:
+                case DeliveryServiceAppDbType.Customer:
                     // _Context = AppDbfactory.GetSpecificCustometrContext(entityEmail);
                     break;
             }
@@ -112,7 +112,7 @@ namespace FoodApp.Repository
         }
     }
 
-    public enum FoodAppDbType
+    public enum DeliveryServiceAppDbType
     {
         Central,
         Kitchen,

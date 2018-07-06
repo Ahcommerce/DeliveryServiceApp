@@ -45,9 +45,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FoodApp.Repository\FoodApp.Repository.csproj">
+    <ProjectReference Include="..\FoodApp.Repository\DeliveryServiceApp.Repository.csproj">
       <Project>{97C7C046-9FAC-4C89-B98A-B0E7A1864494}</Project>
-      <Name>FoodApp.Repository</Name>
+      <Name>DeliveryServiceApp.Repository</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

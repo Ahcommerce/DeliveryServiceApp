@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FoodApp.ServiceProvider.Interface
+namespace DeliveryServiceApp.ServiceProvider.Interface
 {
     public interface IKitchenServiceProvider:IDisposable
     {
