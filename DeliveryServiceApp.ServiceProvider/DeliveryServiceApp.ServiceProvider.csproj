@@ -45,7 +45,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FoodApp.Repository\DeliveryServiceApp.Repository.csproj">
+    <ProjectReference Include="..\DeliveryServiceApp.Repository\DeliveryServiceApp.Repository.csproj">
       <Project>{97C7C046-9FAC-4C89-B98A-B0E7A1864494}</Project>
       <Name>DeliveryServiceApp.Repository</Name>
     </ProjectReference>

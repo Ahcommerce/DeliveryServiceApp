@@ -63,7 +63,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FoodApp.GPSReceiverAPI\DeliveryServiceApp.GPSReceiverAPI.csproj">
+    <ProjectReference Include="..\DeliveryServiceApp.GPSReceiverAPI\DeliveryServiceApp.GPSReceiverAPI.csproj">
       <Project>{E0CFA5F0-39CF-4D8E-85AA-BABAACEB07AB}</Project>
       <Name>DeliveryServiceApp.GPSReceiverAPI</Name>
     </ProjectReference>

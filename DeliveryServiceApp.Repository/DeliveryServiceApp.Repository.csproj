@@ -57,11 +57,11 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FoodApp.DbFactory\DeliveryServiceApp.DbFactory.csproj">
+    <ProjectReference Include="..\DeliveryServiceApp.DbFactory\DeliveryServiceApp.DbFactory.csproj">
       <Project>{6075367E-2533-4CE7-9A90-1929C7F8C917}</Project>
       <Name>DeliveryServiceApp.DbFactory</Name>
     </ProjectReference>
-    <ProjectReference Include="..\FoodApp.KitchenDb\DeliveryServiceApp.KitchenDb.csproj">
+    <ProjectReference Include="..\DeliveryServiceApp.KitchenDb\DeliveryServiceApp.KitchenDb.csproj">
       <Project>{4769046F-0B31-45EC-B9B7-A53158D944AE}</Project>
       <Name>DeliveryServiceApp.KitchenDb</Name>
     </ProjectReference>

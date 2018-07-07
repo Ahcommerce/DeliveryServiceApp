@@ -55,15 +55,15 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FoodApp.CenteralDb\DeliveryServiceApp.CenteralDb.csproj">
+    <ProjectReference Include="..\DeliveryServiceApp.CenteralDb\DeliveryServiceApp.CenteralDb.csproj">
       <Project>{fcd11f9f-da75-4dc0-9633-957be42f8bca}</Project>
       <Name>DeliveryServiceApp.CenteralDb</Name>
     </ProjectReference>
-    <ProjectReference Include="..\FoodApp.CustomerDb\DeliveryServiceApp.CustomerDb.csproj">
+    <ProjectReference Include="..\DeliveryServiceApp.CustomerDb\DeliveryServiceApp.CustomerDb.csproj">
       <Project>{d8142d34-e992-4863-b11d-681568ee6fc5}</Project>
       <Name>DeliveryServiceApp.CustomerDb</Name>
     </ProjectReference>
-    <ProjectReference Include="..\FoodApp.KitchenDb\DeliveryServiceApp.KitchenDb.csproj">
+    <ProjectReference Include="..\DeliveryServiceApp.KitchenDb\DeliveryServiceApp.KitchenDb.csproj">
       <Project>{4769046f-0b31-45ec-b9b7-a53158d944ae}</Project>
       <Name>DeliveryServiceApp.KitchenDb</Name>
     </ProjectReference>

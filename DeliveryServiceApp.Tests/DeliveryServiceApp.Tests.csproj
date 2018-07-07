@@ -99,7 +99,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FoodApp\DeliveryServiceApp.csproj">
+    <ProjectReference Include="..\DeliveryServiceApp\DeliveryServiceApp.csproj">
       <Project>{A5E51B6F-6A0A-4FB8-857F-257CF63151F9}</Project>
       <Name>DeliveryServiceApp</Name>
     </ProjectReference>
