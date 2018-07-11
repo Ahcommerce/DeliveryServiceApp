@@ -23,7 +23,7 @@ namespace DeliveryServiceApp.Repository
                     _Context = AppDbfactory.GetDefaultKitchenContext;
                     break;
                 case DeliveryServiceAppDbType.Customer:
-                   // _Context = AppDbfactory.GetDefaultCustomerContext;
+                    _Context = AppDbfactory.GetDefaultCentralContext;
                     break;
             }
         }
